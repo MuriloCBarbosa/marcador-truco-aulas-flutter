@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:marcador_truco/views/home_page.dart';
+import 'package:marcador_truco_v2/views/home_page.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Marcador de Truco',
-      theme: ThemeData(primarySwatch: Colors.deepOrange),
-      home: HomePage(),
-    ),
-  );
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    title: 'Marcador de Truco',
+    theme: ThemeData(primarySwatch: Colors.blue),
+    home: HomePage(),
+  ));
 }
